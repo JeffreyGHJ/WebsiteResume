@@ -1,8 +1,8 @@
 .home {
-  min-height: 69vh;
+  height: 75vh;
 }
 .header {
-  /*min-height: 70vh;*/
+  height: 75vh;
   /*background: #446570;*/
   background: #181523;
   background-repeat: no-repeat;
@@ -14,7 +14,9 @@
   z-index: -2;
 }
 .header-h1 {
-  padding: 160px 0 0 0;
+  padding-top: 30vh;
+  padding-bottom: 3rem;
+  margin: 0px;
   text-align: center;
   font-family: 'Helvetica Neue';
   font-size: 64px;
@@ -56,6 +58,6 @@
 #tsparticles { 
     position: absolute;
     width: 100%;
-    min-height: 69vh;
+    height: 75vh;
 }
 
