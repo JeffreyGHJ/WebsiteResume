@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Fade from 'react-reveal/Fade'
-import { Container } from 'react-bootstrap'
 import './header.styles.css'
 import Particles from 'react-tsparticles'
 
@@ -94,7 +93,6 @@ class ParticlesContainer extends Component {
 
 
 export const Header = props => {
-  const background_url = props.personal.background_url
   const name = props.personal.name
   const headline = props.personal.headline
   const email = props.personal.email

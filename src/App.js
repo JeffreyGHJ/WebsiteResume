@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { Helmet } from "react-helmet";
 
-import { NavigationBar } from './Components/navigation-bar/navigation-bar.component'
 import { Header } from './Components/header/header.component'
 import { SocialBar } from './Components/social-bar/social-bar.component'
 import { Contact } from './Components/contact-about/contact.component'
