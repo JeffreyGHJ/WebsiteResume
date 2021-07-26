@@ -9,10 +9,11 @@
 }
 
 .about {
-  background-color: #524E5E;
+  /*background-color: #524E5E;*/
+  background: #181523;
   flex-basis: calc(33.333% - 4rem);
   margin: 1rem;
-  padding: 2rem;
+  padding: 2.2rem;
   flex-grow: 1;
 }
 
@@ -40,17 +41,21 @@
   font-weight: 400;
 }
 .contact-p {
+  color: white;
   font-family: 'Segoe UI';
   font-size: 18px;
+  margin-block-start: 0em;
 }
 .skills-grid {
+  color: white;
   margin: 0;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
 
 .title {
-  background: #524E5E;
+  /*background: #524E5E;*/
+  background: #181523;
   margin: 0;
   padding: 4rem;
 }

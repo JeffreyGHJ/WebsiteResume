@@ -11,7 +11,9 @@
   flex-grow: 1;
 }
 .wall2-grid {
-  background: #524E5E;
+  padding: 1.2rem;
+  /*background: #524E5E;*/
+  background: #181523;
   max-width: 1000px;
   margin: 0 auto;
   display: flex;

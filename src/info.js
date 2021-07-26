@@ -14,7 +14,7 @@ export default
         headline: 'Software Engineer',
         description: 'I\'m a software engineer in Orlando Florida. Welcome to my website, have a look around and feel free to contact me!',
         image: '/images/Me.jpg',
-        about: 'Hello, I\'m Jeff and 👋 I\'m good at software engineering and im poor, so please hire me so that you can have good programs and I can be not poor. Thanks!',
+        about: 'Hello, I\'m Jeff and I love playing with computers! I graduated from Florida International University with a Bachelors of Science in Computer Science and I am currently looking for a position where I can apply the skills I learned to make extraordinary software. I am confident that I will flourish in any Software Engineering role from frontend to backend, but personally, I am eager to receive a position where I could work across the entire tech stack and be hands-on with as much of the product as possible. In my spare time I like to tinker with game development on PC, in VR, and on mobile. When I\'m not behind a computer I like going to the gym, playing the guitar or piano, improving my culinary skills, and snowboarding. Thank you for checking out my site -- I can\'t wait to make great software for you!',
         skills:
         [
           'Java', 'C#', 'C', 'HTML + CSS', 'Amazon Web Services (AWS)', 'Git', 'Unity 3D', 'POSIX', 'OpenMPI', 'Bootstrap', 'React', '.NET Framework', 'Android Studio', 'Unix', 'Linux', 'Windows'
@@ -24,19 +24,19 @@ export default
           {
             id: 1,
             name: 'Github',
-            icon_url: '/images/social-icons/Octicons-mark-github.svg',
+            icon_url: '/images/social-icons/Octicons-mark-github1.svg',
             profile_url: 'https://github.com/jeffreyghj'
           },
           {
             id: 2,
             name: 'LinkedIn',
-            icon_url: '/images/social-icons/linkedin-2.png',
+            icon_url: '/images/social-icons/linkedin-icon-white.svg',
             profile_url: 'https://www.linkedin.com/in/jeffreyghj/'
           },
           {
             id: 3,
             name: 'Resume',
-            icon_url: '/images/social-icons/file-icon.png',
+            icon_url: '/images/social-icons/file-icon-white.svg',
             profile_url: '/docs/JeffreyHernandezResume.pdf'
           },
         ],

@@ -1,5 +1,6 @@
 body {
-  background: #524E5E;
+  /*background: #524E5E;*/
+  background: #181523;
   margin: 0;
   overflow-x: hidden; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,31 +20,37 @@ code {
 }
 
 .section-title {
+  color: white;
   clear: both;
   text-align: center;
-  font-family: 'Helvetica Neue';
+  /*font-family: 'Helvetica';*/
   font-size: 64px;
-  font-weight: 300;
+  font-weight: 150;
 }
 
 .section-title-about {
+  
+  color: white;
   clear: both;
   text-align: center;
-  font-family: 'Helvetica Neue';
+  /*font-family: 'Helvetica';*/
   font-size: 64px;
-  font-weight: 300;
-  background: #524E5E;
+  font-weight: 1;
+  /*background: #524E5E;*/
+  background: #181523;
   margin: 0;
   padding: 4rem;
 }
 
 .section-title-education {
+  color: white;
   clear: both;
   text-align: center;
-  font-family: 'Helvetica Neue';
+  /*font-family: 'Helvetica';*/
   font-size: 64px;
   font-weight: 300;
-  background: #524E5E;
+  /*background: #524E5E;*/
+  background: #181523;
   margin: 0;
   padding: 4rem;
 }

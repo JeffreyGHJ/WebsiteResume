@@ -14,7 +14,7 @@ export const Contact = props => {
         <div className='about-grid'>
           <div className='about'>
             <img className='contact-img' src={image} alt="Jeffrey G. Hernandez"></img>
-            <h2 className='contact-h2'> Bio: </h2>
+            
             <p className='contact-p'> {about} </p>
             <p className='contact-p'> Here is a list of my tech: </p>
             <div className='skills-grid'>

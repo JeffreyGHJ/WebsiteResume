@@ -6,8 +6,9 @@
   text-transform: uppercase;
   font-weight: 500;
   font-size: 12px;
-  background: #524E5E;
+  /*background: #524E5E;*/
+  background: #181523;
 }
 .footer-link {
-  color: #bbb;
+  color: #363636;
 }
