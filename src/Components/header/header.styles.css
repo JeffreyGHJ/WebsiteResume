@@ -1,0 +1,61 @@
+.home {
+  min-height: 69vh;
+}
+.header {
+  /*min-height: 70vh;*/
+  /*background: #446570;*/
+  background: #181523;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*border: 1rem solid white;*/
+  box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
+  margin: 0;
+  padding: 1rem;
+  z-index: -2;
+}
+.header-h1 {
+  padding: 160px 0 0 0;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  font-size: 64px;
+  font-weight: 200;
+  color: white;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+.header-h2 {
+  text-align: center;
+  font-family: 'Segoe UI';
+  font-size: 28px;
+  font-weight: 500;
+  color: white;
+  line-height: 1;
+  letter-spacing: 2px;
+  margin: -1em 0 3em 0;
+}
+.header-email-button {
+  position: relative;
+  display: block;
+  margin: auto;
+  border: 2;
+  border-color: white;
+  cursor: pointer;
+  padding: 6px 18px 6px 18px;
+  font-size: 15px;
+  line-height: 2;
+  background-color: rgba(5, 50, 30, .1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 80, .1);
+  z-index: 2;
+}
+.header-email-button:hover {
+  background-color: rgba(255, 255, 255, .1);
+}
+.header-email-button a {
+  color: white;
+}
+#tsparticles { 
+    position: absolute;
+    width: 100%;
+    min-height: 69vh;
+}
+

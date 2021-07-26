@@ -1,0 +1,8 @@
+
+.social-icon-grid {
+  position: fixed;
+  bottom: 11em;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+}

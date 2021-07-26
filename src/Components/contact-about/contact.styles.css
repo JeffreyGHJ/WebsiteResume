@@ -1,0 +1,56 @@
+
+.about-grid {
+  /*background-color: #D2D0CF;*/
+  /*max-width: 1000px;*/
+  /*margin: 0 auto;*/
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+}
+
+.about {
+  background-color: #524E5E;
+  flex-basis: calc(33.333% - 4rem);
+  margin: 1rem;
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.contact {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-img {
+  padding: 0 2rem 2rem 0;
+  border-radius: 50%;
+  max-width: 30%;
+  height: auto;
+  float: left;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+.contact-img:hover {
+  transform: scale(1.05);
+}
+.contact-h2 {
+  font-family: 'Helvetica Neue';
+  color: #222;
+  font-size: 32px;
+  font-weight: 400;
+}
+.contact-p {
+  font-family: 'Segoe UI';
+  font-size: 18px;
+}
+.skills-grid {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.title {
+  background: #524E5E;
+  margin: 0;
+  padding: 4rem;
+}

@@ -1,0 +1,19 @@
+
+/* wall3 view */
+
+.wall3 {
+  flex-basis: calc(25% - 4rem);
+  min-width: 200px; 
+  margin: 1rem;
+  box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
+  background-color: rgba(255, 255, 255, .6);
+  padding: 2rem;
+  flex-grow: 1;
+}
+.wall3-grid {
+background: #524E5E;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}

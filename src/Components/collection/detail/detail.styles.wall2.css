@@ -1,0 +1,47 @@
+
+/* wall2 detail view */
+
+.wall2-photo {
+  width: 100%;
+  transform: translateZ(0);
+  transition: transform 0.35s ease-out;
+}
+.wall2-photo:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+}
+.wall2-h2 {
+  min-height: 6rem;
+  transform: translateZ(0);
+  transition: transform 0.35s ease-out;
+  text-align: center;
+  font-family: 'Helvetica Neue';
+  color: #222;
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding: 4rem 2rem 0 2rem;
+}
+.wall2-h2:hover {
+  transform: scale(1.05);
+  overflow: hidden;
+}
+.wall2-figcaption {
+  padding: 1rem 2rem;
+}
+.wall2-h3 {
+  font-family: 'Helvetica Neue';
+  font-size: 1rem;
+}
+.wall2-p {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+}
+.wall2-ul {
+  font-family: 'Segoe UI';
+  font-size: 16px;
+  padding-inline-start: 1.4rem;
+}
+.wall2-li {
+  margin-bottom: 0.3rem;
+  list-style-type: square;
+}
