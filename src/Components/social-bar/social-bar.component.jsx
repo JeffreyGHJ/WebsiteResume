@@ -22,7 +22,7 @@ export const SocialBar = props => (
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="home"><img src='/images/social-icons/home-icon.svg'></img></span></Link>
+          <span role="img" aria-label="home"><img src='/images/social-icons/home-icon.svg' alt='home-button'></img></span></Link>
         </li>
         <li>
           <Link
@@ -33,7 +33,7 @@ export const SocialBar = props => (
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="education"><img src='/images/social-icons/education-icon.svg'></img></span></Link>
+          <span role="img" aria-label="education"><img src='/images/social-icons/education-icon.svg' alt='education-button'></img></span></Link>
         </li>
         <li>
           <Link
@@ -44,7 +44,7 @@ export const SocialBar = props => (
             smooth={true}
             offset={-70}
             duration={500}>
-          <span role="img" aria-label="projects"><img src='/images/social-icons/projects-icon.svg'></img></span></Link>
+          <span role="img" aria-label="projects"><img src='/images/social-icons/projects-icon.svg' alt='projects-button'></img></span></Link>
         </li>
     </ul>
       
