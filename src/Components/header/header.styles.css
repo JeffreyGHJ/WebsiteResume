@@ -1,8 +1,8 @@
 .home {
-  height: 75vh;
+  height: 34rem;
 }
 .header {
-  height: 75vh;
+  height: 32rem;
   /*background: #446570;*/
   /*background: #181523;*/
   background: #0C0913;
@@ -16,7 +16,7 @@
   z-index: -2;
 }
 .header-h1 {
-  padding-top: 30vh;
+  padding-top: 10rem;
   padding-bottom: 3rem;
   margin: 0px;
   text-align: center;

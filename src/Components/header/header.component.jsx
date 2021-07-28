@@ -108,7 +108,7 @@ export const Header = props => {
               <a 
                 href={`mailto:${email}`} 
                 rel="noopener noreferrer" > 
-                  Get in Touch 
+                  Contact Me 
               </a>
             </button>
 

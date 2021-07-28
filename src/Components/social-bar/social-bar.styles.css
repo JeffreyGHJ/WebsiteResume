@@ -1,8 +1,42 @@
 
 .social-icon-grid {
   position: fixed;
-  bottom: 11em;
+  bottom: 9rem;
   z-index: 100;
   background-color: rgba(255, 255, 255, 0);
   border-color: white;
 }
+.social-icon-grid p {
+  color: white;
+  transform: rotate(270deg);
+  padding-bottom: 1.4rem;
+  padding-right: 1rem;
+  margin: 0rem;
+}
+.nav-bar img {
+    max-width: 24px;
+}
+.nav-bar li {
+    list-style-type: none;
+    padding-top: 24px;
+ }
+
+ul.nav-bar{
+    /*padding-top: 1rem;*/
+    padding-inline-start: 0.3rem;
+}
+.social-icon-grid p:after {
+    top: 9px;
+    right: -48px;
+    width: 40px;
+    height: 1px;
+    content: "";
+    display: block;
+    background-color: white;
+}
+
+/*
+img {
+  max-width: 24px;
+}
+*/
