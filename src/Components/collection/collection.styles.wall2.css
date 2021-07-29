@@ -3,7 +3,7 @@
 
 .wall2 {
   /*flex-basis: calc(33.333% - 4rem);*/
-  flex-basis: calc(40% - 4rem);
+  flex-basis: calc(53% - 4rem);
   /*min-width: 20rem;*/
   margin: 1rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
