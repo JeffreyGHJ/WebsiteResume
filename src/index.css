@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
   /*background: #524E5E;*/
   background: #181523;
