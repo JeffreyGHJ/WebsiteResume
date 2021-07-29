@@ -4,7 +4,7 @@
 .list {
   padding: 0 0 0 0;
   text-align: left;
-  min-width: 200px; 
+  /*min-width: 200px; */
 }
 .list-grid {
   max-width: 1000px;
