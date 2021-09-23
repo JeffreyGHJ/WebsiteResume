@@ -1,4 +1,32 @@
 /* Sitewide variable text */
+import React from 'react';
+import {SiJava} from "react-icons/si";
+import {SiC} from "react-icons/si";
+import {SiCsharp} from "react-icons/si";
+import {SiJavascript} from "react-icons/si";
+import {SiHtml5} from "react-icons/si";
+import {SiCss3} from "react-icons/si";
+import {SiBootstrap} from "react-icons/si";
+import {SiDotNet} from "react-icons/si";
+import {SiReact} from "react-icons/si";
+import {SiUnity} from "react-icons/si";
+import {SiAmazonaws} from "react-icons/si";
+import {SiMicrosoftazure} from "react-icons/si";
+import {SiMicrosoftteams} from "react-icons/si";
+import {SiNetlify} from "react-icons/si";
+import {SiVisualstudio} from "react-icons/si";
+import {SiAndroidstudio} from "react-icons/si";
+import {SiIntellijidea} from "react-icons/si";
+import {SiGit} from "react-icons/si";
+import {SiNpm} from "react-icons/si";
+import {SiPowershell} from "react-icons/si";
+import {SiGnubash} from "react-icons/si";
+import {SiWindows} from "react-icons/si";
+import {SiLinux} from "react-icons/si";
+import {SiUbuntu} from "react-icons/si";
+import {SiAndroid} from "react-icons/si";
+
+
 
 export default
   {
@@ -17,7 +45,27 @@ export default
         about: 'Hello, I\'m Jeff and I graduated from Florida International University with a Bachelors of Science in Computer Science. I am currently looking for a backend or fullstack position where I could work across the entire tech stack and be hands-on with as much of the product as possible. In my spare time I like to tinker with game development on PC, in VR, and on mobile. When I\'m not behind a computer I like going to the gym, playing the guitar or piano, improving my culinary skills, and snowboarding. Thank you for checking out my site -- I can\'t wait to make great software for you!',
         skills:
         [
-          'Java', 'C#', 'C', 'HTML + CSS', 'Amazon Web Services (AWS)', 'Git', 'Unity 3D', 'POSIX', 'OpenMPI', 'Bootstrap', 'React', '.NET Framework', 'Android Studio', 'Unix', 'Linux', 'Windows'
+          <SiJava />, <SiC/>, <SiCsharp/>, <SiJavascript/>, <SiHtml5/>, <SiCss3/>, 
+        ],
+        frameworks:
+        [
+            <SiBootstrap/>, <SiDotNet/>, <SiReact/>, <SiUnity/>,
+        ],
+        software:
+        [
+            <SiAmazonaws/>, <SiMicrosoftazure/>, <SiMicrosoftteams/>, <SiNetlify/>,
+        ],
+        editors:
+        [
+            <SiVisualstudio/>, <SiAndroidstudio/>, <SiIntellijidea/>,
+        ],
+        tools:
+        [
+            <SiGit/>, <SiNpm/>, <SiPowershell/>, <SiGnubash/>,
+        ],
+        environments:
+        [
+            <SiWindows/>, <SiLinux/>, <SiUbuntu/>, <SiAndroid/>,
         ],
         social:       
         [

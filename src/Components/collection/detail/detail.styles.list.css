@@ -4,7 +4,7 @@
 .list-h2 {
   padding: 1rem 0 0 1rem;
   text-align: right;
-  font-family: 'Helvetica Neue';
+  /*font-family: 'Helvetica Neue';*/
   color: #222;
   font-size: 24px;
   font-weight: 400;
@@ -13,11 +13,11 @@
   padding: 0 0 0 1rem;
 }
 .list-h3 {
-  font-family: 'Segoe UI';
+  /*font-family: 'Segoe UI';*/
   font-size: 16px;
 }
 .list-p {
   margin: -0.5em 0 0 0;
-  font-family: 'Segoe UI';
+  /*font-family: 'Segoe UI';*/
   font-size: 16px;
 }

@@ -4,8 +4,6 @@ import './skill.styles.css'
 
 export const Skill = props => (
   <Fade bottom>
-    <div className='skill'>
-       • {props.skill}
-    </div>
+    <div className='skill'>{props.skill}</div>
   </Fade>
 )

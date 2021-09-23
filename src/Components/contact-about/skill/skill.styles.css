@@ -1,9 +1,61 @@
+.skills-section {
+    clear: both;
+}
 
 .skill {
+  height: 1.1em;
+  width: 1.1em;
+  padding: .2em;
+
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 10px;
+  align-items: center;
   /*font-family: 'Helvetica Neue';*/
-  font-family: 'Segoe UI';
-  font-weight: 400;
-  font-size: 13px;
-  margin: 0 0 6px 0;
-  text-align: left;
+  /*font-family: 'Segoe UI';*/
+  /*font-weight: 400;*/
+  font-size: 36px;
+  margin: 6px 6px 6px 6px;
+  /*text-align: left;*/
+  background-color: #0d0b14;
+}
+.progress-section {
+  font-size: 26px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 10px;
+  margin: 1rem 8rem 2rem 8rem;
+}
+.progress-entry{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /*border-style: solid;*/
+  border-radius: 5px;
+  margin: 0 4px 0 4px;
+  min-height: 50px;
+}
+.progress-entry-detail {
+  font-size: 36px;
+  height: 1.1em;
+  width: 1.1em;
+  padding: .2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 3px;
+  margin: 4px 4px 4px 4px;
+  min-height: 10px;
+  min-width: 36px;
+}
+.progress-entry-visual {
+  border-style: solid;
+  border-radius: 7px;
+  margin: 4px 4px 4px 4px;
+  min-height: 10px;
+  width: 100%;
 }
