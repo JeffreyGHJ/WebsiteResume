@@ -1,5 +1,7 @@
 .skills-section {
     clear: both;
+    display: flex;
+    flex-direction: column;
 }
 
 .skill {
@@ -27,7 +29,10 @@
   flex-direction: column;
   border-style: solid;
   border-radius: 10px;
-  margin: 1rem 8rem 2rem 8rem;
+  margin: 1rem 1rem 2rem 1rem;
+  max-width: 44rem;
+  min-width: 20rem;
+  width: -webkit-fill-available;
 }
 .progress-entry{
   display: flex;
