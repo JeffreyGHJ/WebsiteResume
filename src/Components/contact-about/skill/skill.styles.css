@@ -2,6 +2,7 @@
     clear: both;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .skill {
