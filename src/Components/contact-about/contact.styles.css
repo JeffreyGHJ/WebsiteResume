@@ -17,7 +17,9 @@
   background: #181523;
   flex-basis: calc(33.333% - 4rem);
   margin: 1rem;
+  margin-top: 0;
   padding: 2.2rem;
+  padding-top: 0;
   flex-grow: 1;
 }
 .info-section {
@@ -29,6 +31,16 @@
   /*border-radius: 7px;*/
   /*margin: 0 8rem 4rem 8rem;*/
   padding: 2rem;
+}
+.spacer {
+    width: 1rem;
+    min-width: 1rem;
+    height: 1rem;
+}
+@media (max-width: 50rem) {
+    .info-section {
+        flex-direction: column;
+    }
 }
 
 .contact {
@@ -44,7 +56,7 @@
   align-items: center;
   /*padding: 2rem;*/
   border-radius: 50%;
-  max-width: 30%;
+  max-width: 33%;
   height: auto;
   float: left;
   transform: translateZ(0);
@@ -52,6 +64,11 @@
 }
 .contact-img:hover {
   transform: scale(1.05);
+}
+@media (max-width: 50rem) {
+    .contact-img {
+        max-width: 50%;
+    }
 }
 .contact-h2 {
   /*font-family: 'Helvetica Neue';*/
@@ -73,7 +90,7 @@
   font-size: 18px;
   margin-block-start: 0em;
   margin-block-end: 0em;
-  margin-left: 2rem;
+  /*margin-left: 2rem;*/
 }
 .skills-heading {
   color: white;

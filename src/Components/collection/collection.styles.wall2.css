@@ -7,7 +7,7 @@
   border-style: solid;
   border-color: white;
   border-radius: 7px;
-  /*min-width: 20rem;*/
+  min-width: 16rem;
   margin: 1rem;
   box-shadow: 0px 0px 20px rgba(0, 0, 80, .1);
   /*background-color: rgba(255, 255, 255, .6);*/

@@ -24,6 +24,7 @@ export const Contact = props => {
           <div className='about'>
             <div className='info-section'>
               <img className='contact-img' src={image} alt="Jeffrey G. Hernandez"></img>
+              <div className='spacer'></div>
               <p className='contact-p'> {about} </p>
             </div>
 
