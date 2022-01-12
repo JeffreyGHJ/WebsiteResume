@@ -1,4 +1,7 @@
 .header-gradient {
+ display: flex;
+ justify-content: center;
+ align-items: center;
  height: 26rem;
  background: rgb(12,9,19);
  background: linear-gradient(180deg, rgba(12,9,19,1) 0%, rgba(24,21,35,1) 100%);
@@ -113,4 +116,25 @@
   background: #181523;
   margin: 0;
   padding: 4rem;
+}
+
+.project-button {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background: green;
+    border: .2rem solid white;
+    border-radius: .8rem;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.project-button a {
+    color: white;
+}
+
+.project-button:hover {
+    background: #00d107;
 }

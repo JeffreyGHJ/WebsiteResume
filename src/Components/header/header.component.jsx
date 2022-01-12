@@ -18,6 +18,9 @@ class ParticlesContainer extends Component {
           style={particleStyle}
           id="tsparticles"
           options={{
+            fullScreen: {       
+                enable: false   // Disabled to allow custom positioning of particle canvas
+            },
             fpsLimit: 60,
             interactivity: {
               detectsOn: 'canvas',

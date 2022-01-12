@@ -7,7 +7,7 @@ import {SiJavascript} from "react-icons/si";
 import {SiHtml5} from "react-icons/si";
 import {SiCss3} from "react-icons/si";
 import {SiBootstrap} from "react-icons/si";
-import {SiDotNet} from "react-icons/si";
+import {SiDotnet} from "react-icons/si";
 import {SiReact} from "react-icons/si";
 import {SiUnity} from "react-icons/si";
 import {SiAmazonaws} from "react-icons/si";
@@ -49,7 +49,7 @@ export default
         ],
         frameworks:
         [
-            <SiBootstrap/>, <SiDotNet/>, <SiReact/>, <SiUnity/>,
+            <SiBootstrap/>, <SiDotnet/>, <SiReact/>, <SiUnity/>,
         ],
         software:
         [

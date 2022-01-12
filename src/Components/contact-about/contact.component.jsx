@@ -17,6 +17,11 @@ export const Contact = props => {
     
     <div className='contact'>
       <div className='header-gradient'>
+        <button className='project-button'>
+            <a href="https://jeffreyghj-spring-users.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                Click Here To View My Current Project!
+            </a>
+        </button>
       </div>
       <h2 className='section-title-about'> About </h2>
       <Fade bottom>
