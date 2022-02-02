@@ -100,6 +100,17 @@ export default
         [
           {
             id: 1,
+            name: 'Spring Boot User Authentication Web App',
+            image_url: '',
+            site_url: 'https://github.com/JeffreyGHJ/spring-users',
+            location: 'Remote',
+            timeframe: 'Dec. 2021 - Jan. 2022',
+            role: 'Full Stack Engineer - Personal Project',
+            description: 'A Spring Boot web application that allows users to create a \'User\', persist the User entity to a database, and securely log into an account represented by the saved \'User\'',
+            highlights: ['Designed SQL database tables to store registered User entities and enabled persistence of database between sessions', 'Configured web security policies and developed custom validation procedures to allow for secure user authentication','Exposed REST endpoints providing standard C.R.U.D operations for User database entities via HTTP requests'],
+          },
+          {
+            id: 2,
             name: 'Voice-Controlled Virtual Reality App',
             image_url: '',
             site_url: '',
@@ -110,7 +121,7 @@ export default
             highlights: ['Ensured on-time feature delivery by following Agile practices and holding regular Scrum meetings','Implemented speech recognition, VR display settings, file loading, playback control, and corresponding UI elements','Tested and developed Java plugin for Android native file-selection interface using an emulated mobile environment'],
           },
           {
-            id: 2,
+            id: 3,
             name: 'Multi-Process Matrix Multiplier',
             image_url: '',
             site_url: 'https://github.com/JeffreyGHJ/Multi-ProcessMatrixMultiplication',
@@ -121,7 +132,7 @@ export default
             highlights: ['Decomposed matrix data dynamically into horizontal rows determined by the user-specified number of processes','Maximized efficiency by distributing rows evenly between processes in order to solve sub-problems concurrently','Prevented race conditions and deadlock by organizing the flow of critical data between processes'],
           },
           {
-            id: 3,
+            id: 4,
             name: 'Automated RuneScape Botting Farm',
             image_url: '',
             site_url: 'https://github.com/JeffreyGHJ/RuneScapeBotting',
@@ -132,7 +143,7 @@ export default
             highlights: ['Contributed to an open-source repository available for public use following a rigorous approval process by admins','Established scalability, ensured efficiency, and enabled remote access via SSH and VNC by deploying on AWS server','Maintained quality and usability by adding and changing features based on user requests and game updates','Evaluated advantages relating to efficiency, simplicity, and detectability for multiple botting clients and APIs'],
           },
           {
-            id: 4,
+            id: 5,
             name: 'Multi-Threaded Office Hours Simulation',
             image_url: '',
             site_url: 'https://github.com/JeffreyGHJ/Multi-ThreadedOfficeHoursSimulator',
@@ -143,7 +154,7 @@ export default
             highlights: ['Written using the POSIX thread library and rewritten using the OpenMP library to compare efficiency','Protected the consistency of shared data through the use of mutex locks in critical sections','Increased runtime efficiency by introducing random sleep times when threads attempt to access a resource shared by many other threads'],
           },
           {
-            id: 5,
+            id: 6,
             name: 'Text Editor',
             image_url: '',
             site_url: 'https://github.com/JeffreyGHJ/TextEditor',
@@ -154,7 +165,7 @@ export default
             highlights: ['Collaborated with multiple small teams remotely over two-week sprints via Slack and shared Git repositories','Implemented responsive text wrapping, text dragging, and databinding tokenized strings to UI controls','Handled serialization of text and document properties to be saved and loaded as a custom file type'],
           },
           {
-            id: 6,
+            id: 7,
             name: 'Shape Editor',
             image_url: '',
             site_url: 'https://github.com/JeffreyGHJ/ShapeEditor',
@@ -163,6 +174,17 @@ export default
             role: 'Backend Engineer - Course: Adv. Windows Programming',
             description: 'Developed core features for a Windows Forms application that allows the user to draw, manipulate, and edit shapes, similar to MS Paint',
             highlights: ['Designed features and UI to make user-drawn shapes’ properties editable via a separate menu','Enabled multi-SDI and single-instance interfaces and built controls for multi-window navigation and management','Handled serialization of shape properties to be saved and loaded as a custom file type'],
+          },
+          {
+            id: 8,
+            name: 'Spring Hibernate Web Customer Tracker',
+            image_url: '',
+            site_url: 'https://github.com/JeffreyGHJ/SpringHibernateWebCustomerTracker',
+            location: 'Remote',
+            timeframe: 'Nov. 2021',
+            role: 'Full Stack Engineer - Udemy Course',
+            description: 'A Spring web application developed following a Spring Framework tutorial -- This tutorial app is a basic database for Customer entities',
+            highlights: ['Developed as a part of Udemy Tutorial on the Spring Framework','features a full set of C.R.U.D. operations to interact with the database', 'Developed with the MVC design pattern', 'A prototype to my Spring Boot User Authentication Web App'],
           },
         ],
       },
